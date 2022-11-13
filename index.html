@@ -5,12 +5,145 @@
     <title>Personal Portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+      html {
+        scroll-behavior: smooth;
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+      section {
+        display:block;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      div {
+        display: block;
+      }
+
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding-top: 20px;
+        position: fixed;
+        width: 100%;
+      }
+
+      nav ul li {
+        display: inline-block;
+      }
+      
+      .logo {
+        width: 180px;
+        cursor: pointer;
+      }
+
+      #ABOUT_ME, #PROJECTS, #SOCIALS {
+        display: flex;
+        flex_direction: column;
+        justify-content: center ;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+      }
+
+      body {
+        position: relative;
+        font-family: sans-serif;
+      }
+      nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 30px;
+        margin: 25px 50px 25px 25px;
+      }
+
+      nav ul li a:hover {
+        color: rgb(76, 69, 150);
+      }
+
+      .welcome-section, projects-section {
+        margin-top: 1%;
+        margin-left: 15%;
+      }
+      
+      .about p {
+        font-size: 25px;
+      }
+
+      .about h2 {
+        font-size: 52px;
+        margin-bottom: 20px;
+        color: rgb(219, 221, 95);
+      }
+      
+      .projects-section h2 {
+        font-size: 
+      }
+      a {
+        color: #fff;
+      }
+     
+      .welcome-section projects-section {
+        justify-content: center;
+      }
+
+      #PROJECTS, SOCIALS {
+        padding-top: 80px;
+      }
+      span {
+        color: rgb(76, 69, 150);
+      }
+    </style>
+
   </head>
   <body>
-    <h4>Hello, it's me</h4>
-    <h2>Gokul</h2>
+    <nav class="nav" id="navbar">
+      <img <source src="./images/logo.png" class="logo">
+        <ul class="nav-list">
+          <li><a href="#ABOUT_ME">ABOUT ME</a></li>
+          <li><a href="#PROJECTS">PROJECTS</a>
+          <li><a href="#SOCIALS">SOCIALS</a></li> 
+        </ul>
+    </nav>
+    <section id="ABOUT_ME" class="about">
+      <div class="welcome-section">
+      <h2>Hello, it's me <span>Gokul</span></h2>
     <p>An enthusiastic software developer currently pursuing B.Tech in Computer Science with specialization in Cybersecurity from Amrita Vishwa Vidhyapeetham.</p>
-    <body text="white" bgcolor="black">
+      </div>
+        <div class="image">
+        <img src="./images/chopper.png" alt="chopper image" >
+      </div>
+    </section>
+       <section id="PROJECTS">
+        <div class="projects-section">
+       <h2>Some of my projects ...</h2>
+        <a href="./projects/TechnicalDocumentation/index.html" target="_blank">
+          <p class="projectile-title">Learn JavaScript</p>
+      </a>
+        <a href="./projects/CafeMenu/CafeMenu.html" target="_blank">
+          <p class="projectile-title">Cafe Menu</p>
+      </a>
+      </div>
+       </section>
+      <section id="SOCIALS">
+        <div class="social-section-header">
+          <h4>Reach me at ...</h4>
+          <div class="links">
+            <a id="profile-link" href="https://github.com/Gokul2003g" target="_blank">Github</a>
+            <a id="profile-link" href="https://www.linkedin.com/in/gokul-l-9767311b9/" target="_blank">LinkedIn</a>
+            <a if="profile-link" href="https://twitter.com/Gokul26801715" target="_blank">Twitter</a>
+        </div> 
+        </div>
+      </section>
+    
+      <body text="white" bgcolor="black">
   </body>
 </html>
 
