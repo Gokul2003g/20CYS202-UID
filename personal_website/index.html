@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personal Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <style>
+
+      html {
+        scroll-behavior: smooth;
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+      body {
+        color: white;
+        background-color: black;
+
+      }
+      section {
+        display:block;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      div {
+        display: block;
+      }
+
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding-top: 20px;
+        position: fixed;
+        width: 100%;
+      }
+
+      nav ul li {
+        display: inline-block;
+      }
+      
+      .logo {
+        width: 250px;
+        height: 42px;
+        padding-left: 35px;
+        cursor: pointer;
+      }
+
+      #ABOUT_ME, #PROJECTS, #SOCIALS {
+        display: flex;
+        flex_direction: column;
+        justify-content: center ;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+      }
+
+      body {
+        position: relative;
+        font-family: sans-serif;
+      }
+      nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 30px;
+        margin: 25px 50px 25px 25px;
+      }
+
+      nav ul li a:hover {
+        color: rgb(76, 69, 150);
+      }
+
+      .welcome-section, projects-section {
+        margin-top: 1%;
+        margin-left: 15%;
+      }
+      
+      .about p {
+        font-size: 25px;
+      }
+
+       h2 {
+        font-size: 52px;
+        margin-bottom: 20px;
+        color: rgb(237,184,102);
+      }
+      
+      .projects-section h2 {
+        font-size: 
+      }
+      a {
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+      }
+     
+      .welcome-section ,.projects-section {
+        justify-content: center;
+      }
+
+      #PROJECTS, #SOCIALS {
+        padding-top: 10px;
+      }
+      .name {
+        color: rgb(76, 69, 150);
+      }
+      .languages {
+        font-size: 30px;
+        color: #808080;
+      }
+
+     .project-section, .links {
+        text-decoration: none;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 30px;
+        margin: 25px 50px 25px 25px;
+        display: inline-block;
+      }
+      .project-tiles {
+        justify-content: center;
+        font-weight: bold;
+        font-size: 30px;
+      }
+
+      .project-title:hover {
+        font-size: 35px;
+        transition: transform 0.2s ease-in-out;
+      }
+      .JS {
+        font-size: 38px;
+        color: red;
+        transition: transform 0.2s ease-in-out;
+      }
+
+      .cafemenu {
+        color: #6E4F37;
+        font-size: 38px;
+        transition: transform 0.2s ease-in-out;
+      }
+      .golang {
+        color: #00A6D1;
+      }
+
+      .link {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+
+      #profile-link {
+        padding: 5px;
+      }
+      
+      .fab , .fas {
+        padding: 4px;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    
+    <nav class="nav" id="navbar">
+      <img <source src="./images/logo.png" class="logo">
+        <ul class="nav-list">
+          <li><a href="#ABOUT_ME">ABOUT ME</a></li>
+          <li><a href="#PROJECTS">PROJECTS</a>
+          <li><a href="#SOCIALS">SOCIALS</a></li> 
+        </ul>
+    </nav>
+    
+    <section id="ABOUT_ME" class="about">
+      
+      <div class="welcome-section">
+    
+        <h2>Hello, I am <span class="name">Gokul</span></h2>
+        <p>An enthusiastic software developer currently pursuing B.Tech in Computer Science with specialization in Cybersecurity from Amrita Vishwa Vidhyapeetham. I am proficient with multiple programming languages and markup languages including<span class="languages"> C/C++, Java, JavaScript, Golang, HTML5, CSS and bash scripting.</span></p>
+      </div>
+    
+      <div class="image">
+        <img src="./images/chopper.png" alt="chopper image" >
+      </div>
+    
+    </section>
+    
+    <section id="PROJECTS">
+      
+      <div class="projects-section">
+      
+        <h2 class="projects">Some of my projects ...</h2>
+        <div class="project-tiles">
+          <a href="./projects/TechnicalDocumentation/index.html" target="_blank"><p class="project-title">Learn <span class="JS">JS </span></p></a>
+          <a href="./projects/CafeMenu/CafeMenu.html" target="_blank"><p class="project-title"><span class="cafemenu">Cafe Menu</span></p></a>
+          <a href="https://github.com/Gokul2003g/Go" target="_blank"><p class="project-title">Banking App using <span class="golang">GoLang</span></p></a>
+        </div>
+      </div>
+      
+    </section>
+    
+    <section id="SOCIALS">
+    
+      <div class="social-section-header">
+      
+        <h2>Reach me at ...</h2>
+        
+        <div class="links">
+            <a id="profile-link" href="https://github.com/Gokul2003g" target="_blank"><i class="fab fa-github"></i>Github</a>
+            <a id="profile-link" href="https://www.linkedin.com/in/gokul-l-9767311b9/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+            <a id="profile-link" href="https://twitter.com/Gokul26801715" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+            <a id="profile-link" href="https://discordapp.com/users/520631846925631488" target="_blank"><i class="fab fa-discord"></i>disccord</a>
+            <a id="profile-link" href="mailto:gokul2003g@gmail.com"><i class="fas fa-at"></i>Mail me</a>
+        </div> 
+        
+      </div>
+      
+    </section>
+    
+  </body>
+</html>
+
