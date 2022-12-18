@@ -67,6 +67,7 @@ p {
   width: 400px;
   height:60px;
   font-size: 40px;
+  border-radius: 10px;
   cursor: pointer;
   transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, filter 0.2s ease-in-out;
 }

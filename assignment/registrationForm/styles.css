@@ -1,3 +1,7 @@
+html {
+  font-size: 20px;
+}
+
 h1 {
   margin: auto;
   padding:center;
@@ -25,7 +29,7 @@ form ul li label{
   text-align: right;
   margin-right: 10px;
   font-family:Verdana, Arial, Helvetica, sans-serif;
-  font-size:14px;
+  font-size:18px;
 }
 
 form ul li input, select, span {
@@ -39,10 +43,22 @@ form textarea {
   height: 150px;
 }
 
+input {
+  border-radius: 10px;
+}
+
 [type="submit"] {
   clear: left;
   margin: 20px 0 0 230px;
-  font-size:18px
+  font-size:18px;
+  border-radius: 10px;
+}
+
+[type="button"] {
+  clear: right;
+  margin: 20px 0 0 20px;
+  font-size: 18px;
+  border-radius: 10px;
 }
 
 p {
