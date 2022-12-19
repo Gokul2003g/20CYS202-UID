@@ -23,7 +23,7 @@ var ufsex = document.registration.fsex;
 
 
 function allLetter(uname) { 
-  var letters = /^[A-Za-z]+$/;
+  var letters = /^[A-Za-z ]+$/;
   if(uname.value.match(letters))  {
     return true;
   } else  {
@@ -35,7 +35,7 @@ function allLetter(uname) {
 
 
 function alphanumeric(uadd) { 
-  var letters = /^[0-9a-zA-Z]+$/;
+  var letters = /^[0-9a-zA-Z ]+$/;
   if(uadd.value.match(letters)) {
     return true;
   } else  {
