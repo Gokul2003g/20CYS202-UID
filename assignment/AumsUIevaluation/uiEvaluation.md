@@ -4,7 +4,7 @@
 
 <h3>Login Page</h3>
 
-<img src="">
+<img src="./images/login_page.png">
 
 Strength of the page is the use of clear and concise headings and labels to guide the user through the login process. The page also has a clean and modern design, with a consistent layout and good use of white space.
 
@@ -121,10 +121,36 @@ Another which floats on the left side of the page with 7 Main menus and each con
 
 <h4>Registration Page</h5>
 
-Has three submenus:
+- To register in courses
+- View different course registrations
 
-<h5>Track Registration Status</h5>
+<h4>View Marks</h4>
 
-Shows registration status about the courses applied.
+- This section helps to view the students their marks in individual subjects
+- THe overall grade in previous semesters and the current grade
+- Helps to keep track of attendance of students subjectwise and date wise.
+  
+<h4>OPAC</h4>
 
-<h5></h5>
+To search for books in the central library based on various search criterias
+
+<h4>Personal Information</h4>
+
+Has the option to view personal details, academic details, any pending dues, fee details
+
+
+<h2>Conclusion</h2>
+
+Hence to conclude with, the AUMS website is pretty functional but there are many areas where the UI needs to improve in terms of nav bar, the hover effects and the responsiveness of the pages upon user interaction.
+
+All the necessary features were pretty much highlighted and easy to find but a new user may find all the existing features overwhelming.
+
+The overall UI design was consistent but hover functions were messy.
+
+Based on these findings, I reccommend the following changes:
+
+- Remove alot of unused featured from the website to make it simple to use.
+- Focus on CSS effects such as hover and nav bar cascading.
+- Reorganising the overall layout so that there is just one nav bar with only the necessary function.
+- Include a search button to search for tabs instead of navigating to each tab.
+- Render the course names properly by setting a minimum width for the tab.
