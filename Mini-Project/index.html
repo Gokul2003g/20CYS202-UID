@@ -177,6 +177,7 @@
 										</p>
 									</a>
 								</div>
+								<button class="btn btn-info" id="btn">Join</button>
 							</div>
 							<address>
 								<strong>Club Secretary:</strong><br />
@@ -215,6 +216,7 @@
 										</p>
 									</a>
 								</div>
+								<button class="btn btn-warning" id="btn2">Join</button>
 							</div>
 							<address>
 								<strong>Club Secretary:</strong><br />
@@ -360,6 +362,23 @@
 		});
 
 		$(".carousel").carousel();
+
+
+		const btn = document.getElementById("btn");
+		btn.addEventListener("click", () => {
+
+			if (btn.innerText === "Join") {
+				btn.innerText = "We have recieved your request!";
+			}
+		});
+		
+		const btn2 = document.getElementById("btn2");
+		btn2.addEventListener("click", () => {
+
+			if (btn2.innerText === "Join") {
+				btn2.innerText = "We have recieved your request!";
+			}
+		});
 	</script>
 </body>
 
